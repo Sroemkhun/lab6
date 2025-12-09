@@ -13,6 +13,7 @@ int main() {
         cout << "Enter an integer: ";
         
         cin >> number;
+
         if (number == 0) {
             break; 
         }
