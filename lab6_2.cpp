@@ -24,7 +24,6 @@ double findYComponent(double l1, double l2, double a1, double a2) {
 
 
 double pythagoras(double xcomp, double ycomp) {
-    // ใช้ Rx*Rx + Ry*Ry แทน pow(Rx, 2) + pow(Ry, 2) ได้
     return pow(pow(xcomp,2)+pow(ycomp,2),0.5); 
 }
 
